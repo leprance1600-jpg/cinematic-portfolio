@@ -8,7 +8,7 @@ export default function Contact() {
           Prêt à collaborer ?
         </h3>
         <p className="text-[#a1a1aa] text-lg md:text-xl mb-12 max-w-2xl mx-auto font-light">
-          Que ce soit pour du montage vidéo, de la gestion de réseaux sociaux ou la création d'une identité visuelle forte, je suis là pour donner vie à vos idées.
+          {"Que ce soit pour du montage vidéo, de la gestion de réseaux sociaux ou la création d'une identité visuelle forte, je suis là pour donner vie à vos idées."}
         </p>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-6">

@@ -26,7 +26,7 @@ export default function Experience() {
         <div className="text-center mb-16">
           <h3 className="text-3xl md:text-5xl font-bold mb-6 text-white">Mon Expérience</h3>
           <p className="text-[#a1a1aa] text-lg max-w-2xl mx-auto">
-            Mon parcours n'est pas linéaire. Il est forgé par la diversité de mes expériences, alliant discipline de fer, sens du contact et maîtrise des outils digitaux.
+            {"Mon parcours n'est pas linéaire. Il est forgé par la diversité de mes expériences, alliant discipline de fer, sens du contact et maîtrise des outils digitaux."}
           </p>
         </div>
 
@@ -37,7 +37,7 @@ export default function Experience() {
               <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white/20 bg-[#121212] text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 transition-colors duration-300 group-hover:border-white/50 group-hover:bg-white/5">
                 <div className="w-2 h-2 bg-white rounded-full"></div>
               </div>
-              
+
               {/* Content card */}
               <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-3xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-white/20 transition-all duration-300 hover:shadow-[0_0_30px_-10px_rgba(255,255,255,0.05)]">
                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
