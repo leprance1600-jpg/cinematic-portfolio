@@ -9,7 +9,7 @@ interface OverlayProps {
 export default function Overlay({ scrollYProgress }: OverlayProps) {
   // STRICT SEQUENCING FOR SMOOTH CINEMATIC FLOW:
   // Starts blank. No instant appearance.
-  
+
   // Section 1: Fades in (0.05 - 0.15), stays (0.15 - 0.25), fades out (0.25 - 0.3)
   const opacity1 = useTransform(scrollYProgress, [0.05, 0.15, 0.25, 0.30], [0, 1, 1, 0]);
   const y1 = useTransform(scrollYProgress, [0.05, 0.20], [30, 0]);
@@ -35,7 +35,7 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
         className="absolute inset-0 flex flex-col items-center justify-center text-center px-4"
       >
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white drop-shadow-2xl">
-          I'm Abdou
+          {"I'm Abdou"}
         </h1>
         <p className="mt-5 text-lg md:text-2xl text-white/80 font-light tracking-wide drop-shadow-lg max-w-lg mx-auto leading-relaxed">
           Créateur de contenu digital & passionné par la technologie
